@@ -1,4 +1,5 @@
 class Bike {
+    private Material frameMaterial;
     private String color;
     private double size;
     private Wheel[] wheels;
@@ -9,10 +10,10 @@ class Bike {
         this.wheels = new Wheel[2];
         this.wheels[0] = new Wheel(wheelSize);
         this.wheels[1] = new Wheel(wheelSize);
+        this.frameMaterial = frameMaterial;
     }
 
-    public String getColor(){
-        return color;
+    public String getColor(){return color;
     }
 
     public void setColor(String color){
@@ -28,7 +29,7 @@ class Bike {
     }
 
     public Material getFrameMaterial(){
-        return frame.getMaterial();
+        return frameMaterial;
     }
 
     public double getWheelSize(){
