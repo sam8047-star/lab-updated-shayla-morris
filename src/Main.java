@@ -12,10 +12,12 @@
 
 public class Main {
     public static void main(String[] args) {
-        Motorcycle myMotorcycle = new Motorcycle("Pink", 60, Material.PLASTIC, 17.0);
+        Engine engine = new Engine(30, 40);
+        Motorcycle myMotorcycle = new Motorcycle("Pink", 60, Material.PLASTIC, 17.0, engine);
         myMotorcycle.setColor("Purple");
         myMotorcycle.setSize(40.0);
-        Motorcycle myMotorcycle2 = new Motorcycle("Orange", 57.0, Material.WOOD, 20.0);
+        Engine engine2 = new Engine(40, 60);
+        Motorcycle myMotorcycle2 = new Motorcycle("Orange", 57.0, Material.WOOD, 20.0, engine2);
         myMotorcycle2.setColor("Blue");
         Motorcycle myMotorcycle3 = new Motorcycle("Brown", 88.0, Material.STONE, 29.0);
         System.out.println("Motorcycle color: " + myMotorcycle.getColor());
