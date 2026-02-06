@@ -1,10 +1,10 @@
-class Bike {
+class Motorcycle {
     private Material frameMaterial;
     private String color;
     private double size;
     private Wheel[] wheels;
 
-    public Bike(String color, double size, Material frameMaterial, double wheelSize) {
+    public Motorcycle(String color, double size, Material frameMaterial, double wheelSize) {
         this.color = color;
         this.size = size;
         this.wheels = new Wheel[2];
@@ -37,9 +37,9 @@ class Bike {
     }
 
     public void start() {
-        System.out.println("Bike started!");
+        System.out.println("Motorcycle started!");
     }
     public void stop() {
-        System.out.println("Bike stopped.");
+        System.out.println("Motorcycle stopped.");
     }
 }
