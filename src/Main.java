@@ -24,6 +24,8 @@ public class Main {
         System.out.println("Motorcycle size: " + myMotorcycle.getSize());
         System.out.println("Frame material: " + myMotorcycle.getFrameMaterial());
         System.out.println("Wheel size: " + myMotorcycle.getWheelSize());
+        System.out.println("Engine CC: " + myMotorcycle.getEngine().getCC());
+        System.out.println("Engine HP: " + myMotorcycle.getEngine().gethp());
         myMotorcycle.start();
         myMotorcycle.stop();
 
@@ -31,6 +33,8 @@ public class Main {
         System.out.println("Motorcycle size: " + myMotorcycle2.getSize());
         System.out.println("Frame material: " + myMotorcycle2.getFrameMaterial());
         System.out.println("Wheel size: " + myMotorcycle2.getWheelSize());
+        System.out.println("Engine CC: " + myMotorcycle2.getEngine().getCC());
+        System.out.println("Engine HP: " + myMotorcycle2.getEngine().gethp());
         myMotorcycle2.start();
         myMotorcycle2.stop();
 
